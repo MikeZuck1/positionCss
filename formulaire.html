@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <main>
+        <!--  EXTERN FORM  -->
+        <div class="formulaire">
+        <!--  INTERN FORM  -->
+            <div class="formulaire-bloc">
+                <!--  FORM  -->
+                <form action="form.php" method="post">
+                    <div class="information-input">
+                        <!--  TITLE FORM  -->
+                        <div class="title">
+                            <h1>Create an account</h1>
+                        </div>
+                        <!--  INPUTS FORM  -->
+                        <label for="">Nom</label> 
+                        <input type="text"> <br>
+    
+                        <label for="">Prénom</label> 
+                        <input type="text"><br>
+    
+                        <label for="">Email</label>
+                        <input type="email"> <br>
+    
+                        <label for="">Create your password</label>
+                        <input type="password" required minlength="12"> <br>
+
+                        <label for="">Confirm your password</label>
+                        <input type="password" required minlength="12"> <br>
+
+                        <label for="">Select your birthday</label>
+                        <input type="date"> <br>
+                        <!--  BUTTON FORM  -->
+                        <button class="button-64" role="button">
+                            <span class="text">Envoyer</span>
+                    </button>
+                    </div> 
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        &copy; 2024 - Formulaire - powered by Mike
+    </footer>
+</body>
+</html>
