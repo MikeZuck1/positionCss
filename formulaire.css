@@ -60,6 +60,20 @@ input {
     padding: 2px;
 }
 
+.lien-vers-le-position-css {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.lien-vers-le-position-css a {
+  color: #fff;
+  font-family: "roboto", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: #5B42F3;
+}
+
 .button-64 {
   align-items: center;
   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
