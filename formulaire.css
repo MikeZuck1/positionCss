@@ -59,6 +59,10 @@ input {
     padding: 2px;
 }
 
+#birthday-input {
+  cursor: pointer;
+}
+
 .lien-vers-le-position-css {
   display: flex;
   align-items: center;
